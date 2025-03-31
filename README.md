@@ -22,7 +22,7 @@ To start the scraping process:
 
 📂 Output
 	•	link to PDF
-  •	PDF in crappy format
+ 	•	PDF in crappy format
  
 
 📌 Next Steps
