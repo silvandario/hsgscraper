@@ -1,14 +1,74 @@
-.gitignore
-
-# ignore all cache files python project
+# Byte-compiled / optimized / DLL files
 __pycache__/
-# ignore all cache files python project
-*.pyc
+*.py[cod]
+*$py.class
 
-# ignore all virtual environments
+# C extensions
+*.so
 
+# Virtual environment
 venv/
-# ignore logs
-logs/
-# pdfs
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Pylint
+pylint-report.txt
+pylint-global.txt
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PDF output folder (optional, if you save scraped PDFs)
 pdfs/
+
+# CSV output (optional)
+*.csv
+
+# Log files
+*.log
+
+# Secrets (if any)
+.env
+*.env
