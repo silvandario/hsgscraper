@@ -133,6 +133,12 @@ with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
         # download the pdf
         print("Downloading the PDF...")
         
+        
+
+        
+        
+        
+        
     except TimeoutException:
         print("Timed out waiting for page elements to load.")
     except Exception as e:
