@@ -1,6 +1,12 @@
-# ignore cache files python project
+.gitignore
+
+# ignore all cache files python project
 __pycache__/
-# ignore virtual environment
+# ignore all cache files python project
+*.pyc
+
+# ignore all virtual environments
+
 venv/
 # ignore logs
 logs/
