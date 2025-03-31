@@ -15,10 +15,13 @@ To start the scraping process:
    	python getdata.py
    ```
 
+🚀🚀 Checkout the txt file in the folder "raw" - proof of work! 🚀🚀
+
+
 🧪 Current Status
 	•	This is a testing phase – many paths and elements are still hard-coded.
 	•	The script successfully opens the Kursmerkblatt PDF (target document).
-	•	Currently working on extracting and parsing PDF content.
+	•	Parses the content to txt.
 
 📂 Output
 	•	link to PDF
