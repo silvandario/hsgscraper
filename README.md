@@ -8,11 +8,11 @@ To start the scraping process:
 
 1. Navigate to the `spiders` directory:
    ```bash
-   cd spiders
+   cd hsgscraper/hsgscraper/spiders
    ```
 2. 	Run the scraper:
    ```bash
-   python getdata.py
+   	python getdata.py
    ```
 
 🧪 Current Status
