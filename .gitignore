@@ -61,8 +61,6 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# PDF output folder (optional, if you save scraped PDFs)
-pdfs/
 
 # CSV output (optional)
 *.csv
