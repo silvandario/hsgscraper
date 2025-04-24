@@ -23,3 +23,5 @@ To start the scraping process:
    ```
 
 The scraper opens each node of the tree structure, follows all links to the individual courses in a new tab, retrieves the link to each Kursmerkblatt, opens the Kursmerkblatt with a http get request and extracts the content in a way that the pdf is preserved! Initial attempts resulted in a choas of raw html code instead of the actual pdf. 
+
+Not a surprise, but it can take a while: Thus, it is strongly suggested to use **caffeinate** instruction so the terminal does not stop working even if the screen turns black to run it overnight.
