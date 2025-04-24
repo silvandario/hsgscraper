@@ -1,8 +1,15 @@
 # 🕸️ HSG Course Scraper
 
-This project scrapes course information from the University of St. Gallen's course catalog.
+This project scrapes course information from the University of St. Gallen's course catalog. 
+
+Why? 
+
+Becasue students need answers - and thus our **chat bot** -> https://github.com/silvandario/biddingbot needs context!
 
 ## 🚀 Getting Started
+
+The good stuff is located at hsgscraper/hsgscraper/spiders -> each master's degree has its own file for simplicity.
+For example, the MBI -> getmbi.py
 
 To start the scraping process:
 
@@ -12,23 +19,7 @@ To start the scraping process:
    ```
 2. 	Run the scraper:
    ```bash
-   	python getdata.py
+   	python getmbi.py
    ```
 
-🚀🚀 Checkout the txt file in the folder "raw" - proof of work! 🚀🚀
-
-
-🧪 Current Status
-	•	This is a testing phase – many paths and elements are still hard-coded.
-	•	The script successfully opens the Kursmerkblatt PDF (target document).
-	•	Parses the content to txt.
-
-📂 Output
-	•	link to PDF
- 	•	PDF in crappy format
- 
-
-📌 Next Steps
-	•	Dynamically extract and clean text from the downloaded PDFs.
-	•	Generalize the scraper to work for all courses, not just hard-coded examples.
-	•	Improve anti-bot resilience and error handling.
+The scraper opens each node of the tree structure, follows all links to the individual courses in a new tab, retrieves the link to each Kursmerkblatt, opens the Kursmerkblatt with a http get request and extracts the content in a way that the pdf is preserved! Initial attempts resulted in a choas of raw html code instead of the actual pdf. 
